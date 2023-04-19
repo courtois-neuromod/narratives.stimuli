@@ -1,0 +1,1 @@
+fd275a33-3a54-45e1-b5af-b71c9d679354 autoenable=true bucket=cneuromod.narratives.stimuli chunk=1GiB datacenter=US encryption=none host=s3.unf-montreal.ca name=unfs3.cneuromod.narratives.stimuli port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1681924300.368804475s
