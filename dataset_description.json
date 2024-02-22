@@ -1,0 +1,78 @@
+{
+    "Name": "Narratives language annotations",
+    "Dataset": {
+        "Format": "One .json file per each .wav file",
+        "Content": "Each .json file contains the entire transcript and word specific attributes.",
+        "Data": {
+            "transcript":"The entire text that contains the transcript.",
+            "word": "Aligned word passing in the transcripts extracted from the original wav files.",
+            "start": "The onset of the aligned word",
+            "end": "The offset of the aligned word",
+            "confidence": "Likelihood of a word that is identified correctly by AssemblyAI software."
+
+        }
+    },
+
+    "Dataset Counts": {
+        "Number of words": 24628,
+        "Number of unique words": 7007,
+        "Total Number tokens (Byte-Pair Encoding)": 34549,
+        "Total number of unique tokens (Byte-Pair Encoding)": 5701,
+        "Number of words per story": {
+            "21styear": 8664,
+            "black":1591,
+            "forgot": 2186,
+            "lucy": 1578,
+            "notthefall": 1519,
+            "pieman": 973,
+            "prettymouth": 2024,
+            "slumlord": 2544,
+            "tunnel_part1": 1687,
+            "tunnel_part2":1862
+        },
+        "Number of unique words per story": {
+            "21styear": 1884,
+            "black":486 ,
+            "forgot": 671 ,
+            "lucy": 568,
+            "notthefall":529,
+            "pieman": 397,
+            "prettymouth":588 ,
+            "slumlord":653 ,
+            "tunnel_part1": 577,
+            "tunnel_part2":654
+        },
+        "Number tokens (Byte-Pair Encoding)": {
+            "21styear": 12727,
+            "black": 2100,
+            "forgot":2847 ,
+            "lucy": 2170,
+            "notthefall": 2012,
+            "pieman": 1288,
+            "prettymouth": 2835,
+            "slumlord":3308,
+            "tunnel_part1": 2566,
+            "tunnel_part2":2696
+        },
+
+        "Number unique tokens (Byte-Pair Encoding)": {
+            "21styear": 1814,
+            "black": 535,
+            "forgot": 752,
+            "lucy": 630,
+            "notthefall":630,
+            "pieman": 456,
+            "prettymouth": 656,
+            "slumlord": 712,
+            "tunnel_part1": 611,
+            "tunnel_part2":719
+        }
+
+    },
+    "AssemblyAI": {
+            "language_code": "en_us",
+            "version": "0.20.02",
+            "link": "https://www.assemblyai.com/"
+            }
+}
+
